@@ -10,19 +10,19 @@ profile=$(asusctl profile -p | awk '/Active profile/ {print $NF}')
 case "$profile" in
   Performance)
     text="RAZGON"
-    fg="#bf616a"
+    fg="#ea6962"
     ;;
   Balanced)
     text="STABILIZATION"
-    fg="#fab387"
+    fg="#e78a4e"
     ;;
   Quiet)
     text="REACTOR SLEEP"
-    fg="#56b6c2"
+    fg="#89b482"
     ;;
   *)
     text="ASUS ??"
-    fg="#ffffff"
+    fg="#ddc7a1"
     ;;
 esac
 

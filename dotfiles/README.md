@@ -36,7 +36,7 @@ running on my **ROG Zephyrus G15** (_dionysus_).
   - Animated **Neofetch**  
   - Dynamic **Waybar**  
   - ASCII **Cava Visualizer**  
-  - Nord-inspired **neon-radioactive theme**  
+  - **Gruvbox Material** theme (pale green main)  
 
 ## Demo
 ![Hyprland Demo 2](../assets/demo.gif)
@@ -51,7 +51,7 @@ running on my **ROG Zephyrus G15** (_dionysus_).
 ### Alacritty + Waybar
 ![Alacritty](../assets/demo-alacritty.png)
 
-##  Contents
+## Contents
 - [alacritty](alacritty/) → terminal config  
 - [cava](cava/) → audio visualizer  
 - [eww](eww/) → HUD & widgets  

@@ -1,7 +1,7 @@
 /* ── Rofi Theme ──────────────────────────────
    °˖* ૮(  • ᴗ ｡)っ🍸  pewdiepie/archdaemon/dionysh
    shhheersh
-   Vers 1.0
+   Vers 1.0 – Gruvbox Material (pale green main)
    Description: Custom styling for Rofi launcher 
    ─────────────────────────────────────────── */
 
@@ -22,7 +22,7 @@ window {
   blur: true;
   border: 2px;
   border-radius: 3px;
-  border-color: #61afef;
+  border-color: #a9b665;
   background-color: transparent;  // let Hyprland handle opacity
   padding: 0px;
   margin: 30px 50px;
@@ -67,12 +67,12 @@ element {
 element-text, element-icon {
   padding: 6px 8px;
   spacing: 2px;
-  text-color: #fab387;
+  text-color: #e78a4e;
 }
 
 element selected {
-  background-color: #191919;
-  text-color: #e5c07b;
+  background-color: #1d2021;
+  text-color: #d8a657;
   border-radius: 3px;
 }
 
@@ -80,7 +80,7 @@ element selected {
 prompt {
   enabled: false;
   background-color: transparent;
-  text-color: #61afef;
+  text-color: #a9b665;
   padding: 5px 10px;
 }
 
@@ -88,15 +88,15 @@ entry {
   padding: 8px;
   expand: false;
   font: "JetBrainsMono Nerd Font 12";
-  text-color: #fab387;
+  text-color: #e78a4e;
   border-radius: 0px 3px 0px 0px;
-  background-color: #292e36;  // input field
+  background-color: #32302f;  // input field
 }
 
 /* ── Listview ────────────────────────────── */
 listview {
   lines: 1;
-  background-color: rgba(46, 52, 64, 0.8); // solid background inside blur
+  background-color: rgba(40, 40, 40, 0.8); // solid background inside blur
   border-radius: 0px 0px 3px 0px;
   padding: 5px;
 }

@@ -1,33 +1,33 @@
 # ─────────────────────────────────────────────────────────────────────────
 #  °˖* ૮(  • ᴗ ｡)っ🍸  pewdiepie/archdaemon/dionysh shhheersh
-#  Nord-inspired, neon-accent terminal theme
+#  Gruvbox Material–inspired, pale green as main
 #  vers. 1.0.0
 # ─────────────────────────────────────────────────────────────────────────
 
 # ── Cursor & Selection Colours ───────────────────────────────────────────
 [colors.cursor]
-cursor = "#528bff"
-text   = "#9cdef2"
+cursor = "#a9b665"
+text   = "#282828"
 
 [colors.selection]
-text       = "#9cdef2"
-background = "#3e4451"
+text       = "#a9b665"
+background = "#45403d"
 
 # ── Primary Colours ───────────────────────────────────────────────────────
 [colors.primary]
-background = "#282c34"
-foreground = "#9cdef2"
+background = "#282828"
+foreground = "#a9b665"
 
 # ── Normal Palette (ANSI) ────────────────────────────────────────────────
 [colors.normal]
-black   = "#2e3440"
-red     = "#e06c75"
-green   = "#9cdef2"
-yellow  = "#e5c07b"
-blue    = "#61afef"
-magenta = "#c678dd"
-cyan    = "#9cdef2"
-white   = "#828997"
+black   = "#32302f"
+red     = "#ea6962"
+green   = "#a9b665"
+yellow  = "#d8a657"
+blue    = "#7daea3"
+magenta = "#d3869b"
+cyan    = "#89b482"
+white   = "#a89984"
 
 # ── Font Settings ────────────────────────────────────────────────────────
 [font]

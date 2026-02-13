@@ -14,15 +14,16 @@ method = sdl_glsl
 channels = mono
 fragment_shader = winamp_line_style_spectrum.frag
 
-[color]
-background = '#000000'
+[color]  ; Gruvbox Material (pale green main)
+background = '#282828'
+foreground = '#a9b665'
 gradient = 1
-gradient_color_1 = '#319C08'
-gradient_color_2 = '#29CE10'
-gradient_color_3 = '#BDDE29'
-gradient_color_4 = '#DEA518'
-gradient_color_5 = '#D66600'
-gradient_color_6 = '#CE2910'
+gradient_color_1 = '#424a3e'
+gradient_color_2 = '#a9b665'
+gradient_color_3 = '#89b482'
+gradient_color_4 = '#d8a657'
+gradient_color_5 = '#e78a4e'
+gradient_color_6 = '#ea6962'
 
 [smoothing]
 noise_reduction = 10

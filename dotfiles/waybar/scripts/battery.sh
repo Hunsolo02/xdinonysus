@@ -36,11 +36,11 @@ ascii_bar="[$bar$pad]"
 
 # Color thresholds
 if [ "$capacity" -lt 20 ]; then
-    fg="#bf616a"  # red
+    fg="#ea6962"  # red
 elif [ "$capacity" -lt 55 ]; then
-    fg="#fab387"  # orange
+    fg="#e78a4e"  # orange
 else
-    fg="#56b6c2"  # cyan
+    fg="#89b482"  # aqua
 fi
 
 
