@@ -30,7 +30,9 @@
 ``` 
 # Добро пожаловать, командир.  
 Rice config for **Hyprland** on Arch Linux,  
-running on my **ROG Zephyrus G15** (_dionysus_). 
+running on my **ROG Zephyrus G15** (_dionysus_).  
+
+**Установка на CachyOS (KDE Plasma + Hyprland):** см. [INSTALL-CachyOS.md](INSTALL-CachyOS.md).
 
 ## Features
   - Animated **Neofetch**  
