@@ -1,7 +1,7 @@
 // ──────────────────────────────────────────────────────────────────────────
 //   °˖* ૮(  • ᴗ ｡)っ🍸  pewdiepie/archdaemon/dionysh
 //   shhheersh
-//   EWW HUD – Gruvbox Material (pale green main)
+//   EWW HUD – Sea Green Theme (Raashid A.)
 //   vers. 1.0
 // ──────────────────────────────────────────────────────────────────────────
 
@@ -12,7 +12,7 @@
 }
 
 .visualizer {
-  color: #89b482; // Gruvbox Material aqua
+  color: #25a2a6; // Sea Green
   font-family: monospace;
   background-color: transparent;
   font-size: 9px;
@@ -27,7 +27,7 @@
 .visualizer-text {
   font-family: monospace;
   font-size: 8px;
-  color: #89b482;
+  color: #25a2a6;
 }
 
 
@@ -52,26 +52,26 @@ window {
 .pixel-ascii {
   font-family: monospace;
   font-size: 6px;
-  color: #d8a657;
+  color: #d8c569;
   background-color: transparent;
 }
 
 
 // ── Color Classes ─────────────────────────────────────────────────────────
-.red_1  { color: #ea6962; }
-.green_1 { color: #a9b665; }
-.blue_1  { color: #7daea3; }
-.yellow_1 { color: #a9b665; }
+.red_1  { color: #FF5370; }
+.green_1 { color: #25a2a6; }
+.blue_1  { color: #64B1CE; }
+.yellow_1 { color: #25a2a6; }
 
-.red_2  { color: #ea6962; }
-.green_2 { color: #a9b665; }
-.blue_2  { color: #7daea3; }
-.yellow_2 { color: #e78a4e; }
+.red_2  { color: #FF5370; }
+.green_2 { color: #25a2a6; }
+.blue_2  { color: #64B1CE; }
+.yellow_2 { color: #d8c569; }
 
 
 // ── Frames ────────────────────────────────────────────────────────────────
 .outer-frame {
-  border: 2px solid #a9b665;
+  border: 2px solid #25a2a6;
   border-radius: 3px;
   padding: 4px;
   background-color: transparent;
@@ -79,14 +79,14 @@ window {
 }
 
 .inner-frame {
-  border: 2px solid #89b482;
+  border: 2px solid #25a2a6;
   border-radius: 1px;
   padding: 6px;
   //background-color: rgba(25, 25, 25, 0.4);
 }
 
 .module-frame {
-  border: 2px solid #a9b665;
+  border: 2px solid #25a2a6;
   border-radius: 2px;
   margin-bottom: 5px;
   margin-left: 5px;
@@ -97,7 +97,7 @@ window {
 }
 
 .module-frame {
-  border: 2px solid #a9b665;
+  border: 2px solid #25a2a6;
   border-radius: 2px;
   margin: 5px;
   padding: 1px;
@@ -108,7 +108,7 @@ window {
 }
 
 .module-frame2 {
-  border: 2px solid #a9b665;
+  border: 2px solid #25a2a6;
   border-radius: 2px;
   margin: 5px;
   padding: 1px;
@@ -119,9 +119,9 @@ window {
 }
 
 .module-frame:hover {
-  border-color: #89b482;
-  background-image: linear-gradient(to left, rgba(137, 180, 130, 0.1), rgba(0, 0, 0, 0));
-  box-shadow: 0 0 8px rgba(137, 180, 130, 0.4);
+  border-color: #25a2a6;
+  background-image: linear-gradient(to left, rgba(37, 162, 166, 0.1), rgba(0, 0, 0, 0));
+  box-shadow: 0 0 8px rgba(37, 162, 166, 0.4);
 }
 
 
@@ -129,14 +129,14 @@ window {
 .label-primary {
   font-size: 14px;
   font-weight: bold;
-  color: #a9b665;
+  color: #25a2a6;
 }
 
 .label-primary2 {
   font-size: 9px;
   font-weight: bold;
-  color: #a9b665;
-  border: 2px solid #a9b665;
+  color: #25a2a6;
+  border: 2px solid #25a2a6;
   border-radius: 2px;
   margin-bottom: 50px;
   margin-left: 27px;
@@ -163,14 +163,14 @@ window {
 .stats-label {
   font-size: 10px;
   font-weight: bold;
-  color: #89b482;
+  color: #25a2a6;
   letter-spacing: 1px;
 }
 
 .stats-label2 {
   font-size: 10px;
   font-weight: bold;
-  color: #89b482;
+  color: #25a2a6;
   letter-spacing: 1px;
 }
 
@@ -178,7 +178,7 @@ window {
   font-size: 10px;
   margin-left: 87px;
   font-weight: bold;
-  color: #89b482;
+  color: #25a2a6;
   letter-spacing: 1px;
 }
 
@@ -191,7 +191,7 @@ window {
 
 // ── RAM & Bars ────────────────────────────────────────────────────────────
 .ascii-bar-frame {
-  border: 1px solid #a9b665;
+  border: 1px solid #25a2a6;
   border-radius: 4px;
   margin: 4px;
   padding: 4px;
@@ -202,20 +202,20 @@ window {
 .ram-bar {
   font-size: 20px;
   font-family: monospace;
-  color: #a9b665;
+  color: #25a2a6;
   letter-spacing: 4px;
   padding: 2px 2px;
 }
 
 .ram-bar2 {
-  color: #a9b665;
+  color: #25a2a6;
   letter-spacing: 1.5px;
   padding: 1px 1px;
   font-size: 10px;
 }
 
 .ram-bar4 {
-  color: #a9b665;
+  color: #25a2a6;
   letter-spacing: 1.5px;
   padding: 1px 1px;
   font-size: 10px;
@@ -226,11 +226,11 @@ window {
 .day-time-container {
   padding: 1em;
   border-radius: 12px;
-  border: 2px solid #89b482;
+  border: 2px solid #25a2a6;
 }
 
 .weekday-container {
-  border: 2px solid #32302f;
+  border: 2px solid #151b25;
   border-radius: 12px;
   padding: 16px;
   min-width: 200px;
@@ -239,12 +239,12 @@ window {
 .weekday-text {
   font-size: 34px;
   font-weight: bold;
-  color: #e78a4e;
+  color: #d8c569;
 }
 
 .time-text {
   font-size: 18px;
-  color: #a9b665;
+  color: #25a2a6;
   margin-top: 6px;
 }
 
@@ -252,21 +252,21 @@ window {
 // ── Welcome ───────────────────────────────────────────────────────────────
 .welcome-box {
   background-color: rgba(25,25,25,0.6);
-  border: 2px solid #89b482;
+  border: 2px solid #25a2a6;
   border-radius: 8px;
   padding: 12px 20px;
   margin-top: 10px;
 }
 
-.welcome-text { font-size: 18px; font-weight: bold; color: #a9b665; }
-.welcome-sub  { font-size: 12px; color: #ddc7a1; margin-top: 4px; }
-.welcome-label { color: #89b482; font-size: 12px; font-weight: bold; }
-.welcome-value { color: #a9b665; font-size: 12px; font-weight: bold; letter-spacing: 1px; }
+.welcome-text { font-size: 18px; font-weight: bold; color: #25a2a6; }
+.welcome-sub  { font-size: 12px; color: #eeffff; margin-top: 4px; }
+.welcome-label { color: #25a2a6; font-size: 12px; font-weight: bold; }
+.welcome-value { color: #25a2a6; font-size: 12px; font-weight: bold; letter-spacing: 1px; }
 
 
 // ── Shades & Animations ───────────────────────────────────────────────────
 .shade2 { background: linear-gradient(to right, black 3px, rgba(19,19,19,0) 15%); }
-.shade  { background-color: #a9b665; }
+.shade  { background-color: #25a2a6; }
 
 $window_visible: true;
 
@@ -287,7 +287,7 @@ $window_visible: true;
 .fan-ascii {
   font-family: "JetBrainsMono Nerd Font", monospace;
   font-size: 15px;
-  color: #89b482;
+  color: #25a2a6;
   letter-spacing: 3px;
   transition: color 0.3s ease, transform 0.3s ease;
 }
@@ -302,22 +302,22 @@ $window_visible: true;
   margin-left: 5px;
 }
 
-.fan-rpm { font-size: 10px; color: #a9b665; }
-.fan-rpm2 { font-size: 11px; min-width: 30px; color: #a9b665; padding: 0; }
+.fan-rpm { font-size: 10px; color: #25a2a6; }
+.fan-rpm2 { font-size: 11px; min-width: 30px; color: #25a2a6; padding: 0; }
 
 
 // ── Workspaces ────────────────────────────────────────────────────────────
 .workspace-ascii {
   font-family: monospace;
   font-size: 14px;
-  color: #7daea3;
+  color: #64B1CE;
 }
 
 .workspace-ascii-highlight {
   font-family: monospace;
   font-size: 20px;
   font-weight: bold;
-  color: #a9b665;
+  color: #25a2a6;
 }
 
 
@@ -325,14 +325,14 @@ $window_visible: true;
 .terminal-feed {
   font-family: monospace;
   font-size: 12px;
-  color: #89b482;
+  color: #25a2a6;
   padding-left: 8px;
 }
 
 .reactor-ascii {
   font-family: monospace;
   font-size: 4px;
-  color: #a9b665;
+  color: #25a2a6;
   font-weight: bold;
   min-height: 140px;
   min-width: 280px;
@@ -342,27 +342,27 @@ $window_visible: true;
   font-family: monospace;
   font-size: 10px;
   border-radius: 0px;
-  color: #a9b665;
+  color: #25a2a6;
 }
 .ascii-core-status2 {
   font-family: monospace;
   font-size: 14px;
   padding: 4px;
   border-radius: 0px;
-  color: #a9b665;
+  color: #25a2a6;
 }
 
 .log-line {
   font-family: monospace;
   font-size: 10px;
-  color: #a9b665;
+  color: #25a2a6;
   padding: 4px;
 }
 
 .ascii-decor1 {
   font-family: monospace;
   font-size: 12px;
-  color: #a9b665;
+  color: #25a2a6;
   letter-spacing: 1px;
   padding: 6px;
   margin: 4px;
@@ -377,16 +377,16 @@ $window_visible: true;
 }
 
 .info-left {
-  background-color: #1d2021;
+  background-color: #0a1018;
   min-width: 1px;
-  border: 2px solid #a9b665;
+  border: 2px solid #25a2a6;
   border-radius: 1px;
 }
 
 .info-left2 { min-height: 1px; }
 
 .info-right-box {
-  background-color:#e78a4e;
+  background-color:#d8c569;
   min-height: 31.2px;
   margin-bottom: 15px;
   min-width: 26px;
@@ -395,21 +395,21 @@ $window_visible: true;
 .info-right-text {
   font-size: 13px;
   font-weight: bold;
-  color: #1d2021;
+  color: #0a1018;
 }
 
 
 // ── Power ─────────────────────────────────────────────────────────────────
-.power-label { font-size: 12px; color: #e78a4e; font-family: monospace; }
-.power-label2 { font-size: 12px; color: #89b482; font-family: monospace; }
-.power-label3 { font-size: 12px; color: #7daea3; font-family: monospace; }
+.power-label { font-size: 12px; color: #d8c569; font-family: monospace; }
+.power-label2 { font-size: 12px; color: #25a2a6; font-family: monospace; }
+.power-label3 { font-size: 12px; color: #64B1CE; font-family: monospace; }
 
-.power-value { font-size: 10px; color: #a9b665; font-family: monospace; margin: 5px; }
+.power-value { font-size: 10px; color: #25a2a6; font-family: monospace; margin: 5px; }
 
 .power-header {
   font-size: 10px;
   font-weight: bold;
-  color:#89b482;
+  color:#25a2a6;
   padding: 4px 8px;
   min-width: 150px;
 }
@@ -417,7 +417,7 @@ $window_visible: true;
 .power-header-alt {
   font-size: 6px;
   font-weight: bold;
-  color: #7daea3;
+  color: #64B1CE;
   padding: 4px 8px;
   letter-spacing: 1px;
   min-width: 15px;

@@ -22,11 +22,11 @@ icon="󰛨"
 
 # Color thresholds
 if [ "$percent" -lt 20 ]; then
-    fg="#ea6962"  # red
+    fg="#FF5370"  # red
 elif [ "$percent" -lt 55 ]; then
-    fg="#e78a4e"  # orange
+    fg="#F78C6C"  # orange
 else
-    fg="#89b482"  # aqua
+    fg="#25a2a6"  # sea green
 fi
 
 # Device name (first column from brightnessctl --machine-readable)

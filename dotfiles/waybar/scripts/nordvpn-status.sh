@@ -4,8 +4,8 @@
 # Usage: Called by Waybar `custom/vpn` every 5s
 # Dependencies: ip, curl (optional, for country lookup)
 # Output: Pango markup → [ФАНТОМ]: Country or KAPUTT
-# Example: <span foreground='#e78a4e'>[ФАНТОМ]: Japan</span>
-#          <span foreground='#ea6962'>[ФАНТОМ]: KAPUTT</span>
+# Example: <span foreground='#25a2a6'>[ФАНТОМ]: Japan</span>
+#          <span foreground='#FF5370'>[ФАНТОМ]: KAPUTT</span>
 # ───────────────────────────────────────────────────────────
 
 #!/bin/bash
@@ -13,8 +13,8 @@
 if sudo ipsec statusall 2>/dev/null | grep -q "ESTABLISHED"; then
   country=$(curl -s ifconfig.co/country 2>/dev/null)
   [[ -z "$country" ]] && country="UNKNOWN"
-  echo "<span foreground='#e78a4e'>[ФАНТОМ]: $country</span>"
+  echo "<span foreground='#25a2a6'>[ФАНТОМ]: $country</span>"
 else
-  echo "<span foreground='#ea6962'>[ФАНТОМ]: KAPUTT</span>"
+  echo "<span foreground='#FF5370'>[ФАНТОМ]: KAPUTT</span>"
 fi
 

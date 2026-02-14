@@ -8,9 +8,9 @@
 
 if pactl get-source-mute @DEFAULT_SOURCE@ | grep -q 'yes'; then
   # Muted → mic-off icon
-  echo "<span foreground='#e78a4e'>[  ]</span>"
+  echo "<span foreground='#F78C6C'>[  ]</span>"
 else
   # Active → mic-on icon
-  echo "<span foreground='#89b482'>[  ]</span>"
+  echo "<span foreground='#25a2a6'>[  ]</span>"
 fi
 

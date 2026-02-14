@@ -36,7 +36,7 @@ running on my **ROG Zephyrus G15** (_dionysus_).
   - Animated **Neofetch**  
   - Dynamic **Waybar**  
   - ASCII **Cava Visualizer**  
-  - **Gruvbox Material** theme (pale green main)  
+  - **Sea Green Theme** (Raashid A. / Fixthecode for VS Code)  
 
 ## Demo
 ![Hyprland Demo 2](../assets/demo.gif)

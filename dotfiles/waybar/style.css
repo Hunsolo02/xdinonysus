@@ -1,6 +1,6 @@
 /* ──────────────────────────────────────────────────────────────────────────
    °˖* ૮(  • ᴗ ｡)っ🍸  pewdiepie/archdaemon/dionysh  shhheersh
-   Waybar CSS – Gruvbox Material (pale green main)
+   Waybar CSS – Sea Green Theme (Raashid A.)
    vers. 1.0
    ────────────────────────────────────────────────────────────────────────── */
 
@@ -15,19 +15,19 @@ waybar * {
 }
 
 #waybar {
-  background-color: #32302f;
+  background-color: #151b25;
   border-radius: 2px;
   opacity: 0.95;
 }
 
 window#waybar {
-  background: #282828;
+  background: #0a1018;
   transition-property: background-color;
   transition-duration: 0.5s;
-  color: #a9b665;
-  border: 3px solid #a9b665;
-  border-left: 3px solid #89b482;
-  border-right: 3px solid #89b482;
+  color: #25a2a6;
+  border: 3px solid #25a2a6;
+  border-left: 3px solid #d8c569;
+  border-right: 3px solid #d8c569;
 }
 
 
@@ -45,18 +45,18 @@ window#waybar {
   padding: 6px 6px;
   margin: 6px 3px;
   border-radius: 4px;
-  background-color: #32302f;
-  color: #89b482;
+  background-color: #151b25;
+  color: #64B1CE;
 }
 
 #workspaces button.active {
-  color: #e78a4e;
-  background-color: #89b482;
+  color: #d8c569;
+  background-color: #25a2a6;
 }
 
 #workspaces button:hover {
-  color: #32302f;
-  background-color: #89b482;
+  color: #151b25;
+  background-color: #25a2a6;
 }
 
 
@@ -79,8 +79,8 @@ window#waybar {
 #tray {
   padding: 6px 12px;
   margin: 6px 6px;
-  background-color: #32302f;
-  border: 2px solid #a9b665;
+  background-color: #151b25;
+  border: 2px solid #25a2a6;
   border-radius: 2px;
 }
 
@@ -88,19 +88,19 @@ window#waybar {
 /* === Audio ============================================================== */
 
 #pulseaudio.muted {
-  background-color: #d3869b;
-  color: #1d2021;
+  background-color: #e72c7a;
+  color: #0a1018;
 }
 
 
 /* === Bluetooth =========================================================== */
 
 #bluetooth.disabled {
-  color: #e78a4e;
+  color: #F78C6C;
 }
 
 #custom-bluetooth {
-  color: #89b482;
+  color: #25a2a6;
   transition: color 0.2s ease-in-out;
 }
 
@@ -108,8 +108,8 @@ window#waybar {
 /* === Network ============================================================= */
 
 #network.disconnected {
-  background-color: #ea6962;
-  color: #1d2021;
+  background-color: #FF5370;
+  color: #0a1018;
 }
 
 
@@ -118,7 +118,7 @@ window#waybar {
 #clock {
   font-weight: bold;
   font-size: 12px;
-  color: #e78a4e;
+  color: #d8c569;
 }
 
 
@@ -127,7 +127,7 @@ window#waybar {
 #custom-asus-profile {
   font-weight: bold;
   font-size: 12px;
-  color: #d8a657;
+  color: #d8c569;
 }
 
 
@@ -148,8 +148,8 @@ window#waybar {
 
 /* 🔴 Critical */
 #custom-battery .battery-critical {
-  background-color: #ea6962;
-  color: #282828;
+  background-color: #FF5370;
+  color: #0a1018;
   padding: 2px 6px;
   border-radius: 6px;
   font-weight: bold;
@@ -157,22 +157,22 @@ window#waybar {
 
 /* 🟠 Warning */
 #custom-battery .battery-warning {
-  background-color: #e78a4e;
-  color: #32302f;
+  background-color: #F78C6C;
+  color: #151b25;
   padding: 2px 6px;
   border-radius: 6px;
 }
 
 /* 🟢 Normal */
 #custom-battery .battery-normal {
-  color: #ddc7a1;
+  color: #eeffff;
 }
 
 
 /* === Brightness ========================================================== */
 
 #backlight {
-  background-color: #32302f;
+  background-color: #151b25;
 }
 
 
@@ -180,7 +180,7 @@ window#waybar {
 
 #tray {
   padding: 4px 8px;
-  background-color: #1d2021;
+  background-color: #0e131b;
 }
 
 
@@ -196,7 +196,7 @@ window#waybar {
 #custom-workspace-2:hover,
 #custom-workspace-3:hover,
 #custom-workspace-4:hover {
-  color: #e78a4e;
+  color: #d8c569;
   transition: all 0.2s ease-in-out;
 }
 
@@ -220,9 +220,9 @@ window#waybar {
 #custom-brightness:hover,
 #clock:hover,
 #tray:hover {
-  background-color: #45403d;
-  border: 2px solid #89b482;
-  color: #89b482;
+  background-color: #242b38;
+  border: 2px solid #d8c569;
+  color: #d8c569;
   transition: all 0.2s ease-in-out;
 }
 
@@ -230,13 +230,13 @@ window#waybar {
 /* === Tooltips ============================================================ */
 
 tooltip {
-  color: #89b482;
-  background-color: #32302f;
-  border: 1px solid #89b482;
+  color: #25a2a6;
+  background-color: #151b25;
+  border: 1px solid #25a2a6;
   font-weight: bold;
 }
 
 tooltip label {
-  color: #7daea3;
+  color: #64B1CE;
 }
 
